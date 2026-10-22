@@ -1,0 +1,1136 @@
+{
+  "_metadata": {
+    "source": "Government of India Official Portals (myScheme.gov.in, data.gov.in, central ministries, and state departments)",
+    "retrievedDate": "2026-10-22",
+    "verifiedCount": 26,
+    "demoDataIsolated": true
+  },
+  "schemes": [
+    {
+      "id": "pm-kisan",
+      "name": {
+        "en": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+        "hi": "प्रधानमंत्री किसान सम्मान निधि (पीएम-किसान)",
+        "ur": "وزیر اعظم کسان سمان ندھی (پی ایم کسان)"
+      },
+      "description": {
+        "en": "Direct income support of ₹6,000 per year in three equal 4-monthly installments to all cultivable landholding farmer families.",
+        "hi": "सभी कृषि योग्य भूमिधारक किसान परिवारों को ₹6,000 प्रति वर्ष तीन समान किस्तों (प्रत्येक ₹2,000) में प्रत्यक्ष बैंक अंतरण।",
+        "ur": "تمام زرعی اراضی رکھنے والے کسان خاندانوں کو سالانہ 6,000 روپے کی براہ راست بینک منتقلی تین مساوی قسطوں میں۔"
+      },
+      "benefits": {
+        "en": "₹6,000 per year directly transferred to bank account in 3 equal installments of ₹2,000 via DBT.",
+        "hi": "डीबीटी के माध्यम से ₹2,000 की 3 समान किस्तों में बैंक खाते में सीधे ₹6,000 प्रति वर्ष।",
+        "ur": "ڈی بی ٹی کے ذریعے بینک اکاؤنٹ میں 2000 روپے کی 3 مساوی قسطوں میں سالانہ 6,000 روپے۔"
+      },
+      "category": "agriculture",
+      "department": "Ministry of Agriculture and Farmers Welfare, Govt of India",
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Small, marginal and all cultivable landholder farmer families",
+        "hi": "छोटे, सीमांत और सभी कृषि योग्य भूमिधारक किसान परिवार",
+        "ur": "چھوٹے، پسماندہ اور تمام زرعی اراضی کے مالک کسان خاندان"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["farmer"],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "ownsLand", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.landRecord", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://pmkisan.gov.in/",
+      "sourceUrl": "https://pmkisan.gov.in/",
+      "sourcePublisher": "Ministry of Agriculture and Farmers Welfare, Government of India",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-20",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pmfby",
+      "name": {
+        "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "hi": "प्रधानमंत्री फसल बीमा योजना (पीएमएफबीवाई)",
+        "ur": "وزیر اعظم فصل بیمہ یوجنا"
+      },
+      "description": {
+        "en": "Comprehensive risk insurance for farmers protecting against non-preventable natural calamities from pre-sowing to post-harvest.",
+        "hi": "प्राकृतिक आपदाओं, कीटों और बीमारियों के कारण फसल नुकसान से बुवाई से लेकर कटाई के बाद तक किसानों को व्यापक बीमा सुरक्षा।",
+        "ur": "بوائی سے لے کر کٹائی کے بعد تک قدرتی آفات سے فصل کے نقصان کے خلاف کسانوں کے لیے جامع بیمہ تحفظ۔"
+      },
+      "benefits": {
+        "en": "Full financial claim settlement for crop damage; farmer pays only 2% for Kharif, 1.5% for Rabi, and 5% for commercial crops.",
+        "hi": "फसल क्षति का पूर्ण वित्तीय दावा निपटान; खरीफ के लिए केवल 2%, रबी के लिए 1.5% और वाणिज्यिक फसलों के लिए 5% प्रीमियम।",
+        "ur": "فصل کے نقصان کا مکمل مالی کلیم؛ خریف کے لیے صرف 2%، ربیع کے لیے 1.5%، اور تجارتی فصلوں کے لیے 5% پریمیم۔"
+      },
+      "category": "agriculture",
+      "department": "Ministry of Agriculture and Farmers Welfare, Govt of India",
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "All farmers including sharecroppers and tenant farmers growing notified crops",
+        "hi": "अधिसूचित फसलें उगाने वाले बटाईदार और काश्तकार किसानों सहित सभी किसान",
+        "ur": "مطلع شدہ فصلیں اگانے والے تمام کسان بشمول بٹائی دار اور کرایہ دار کسان"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["farmer"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.landRecord", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.bankBranch", "step.track"],
+      "applicationUrl": "https://pmfby.gov.in/",
+      "sourceUrl": "https://pmfby.gov.in/",
+      "sourcePublisher": "Department of Agriculture and Farmers Welfare",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-20",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "kcc-scheme",
+      "name": {
+        "en": "Kisan Credit Card (KCC) Scheme",
+        "hi": "किसान क्रेडिट कार्ड (केसीसी) योजना",
+        "ur": "کسان کریڈٹ کارڈ (کے سی سی) اسکیم"
+      },
+      "description": {
+        "en": "Timely access to affordable formal credit for farmers for crop cultivation, post-harvest expenses, and animal husbandry.",
+        "hi": "किसानों को फसल उत्पादन, फसल कटाई के बाद के खर्चों और पशुपालन/मत्स्य पालन के लिए समय पर रियायती संस्थागत ऋण।",
+        "ur": "کسانوں کو فصل کی کاشت، کٹائی کے بعد کے اخراجات اور مویشی پالنے کے لیے بر وقت سستا ادارہ جاتی قرض۔"
+      },
+      "benefits": {
+        "en": "Revolving credit limit up to ₹3,00,000 at concessional interest rate of 4% per annum upon prompt repayment.",
+        "hi": "समय पर भुगतान करने पर 4% वार्षिक रियायती ब्याज दर पर ₹3,00,000 तक की परिक्रामी ऋण सीमा।",
+        "ur": "بر وقت ادائیگی پر 4% سالانہ رعایتی شرح سود پر 3,00,000 روپے تک کا گھومتا ہوا قرض۔"
+      },
+      "category": "agriculture",
+      "department": "Department of Agriculture and Farmers Welfare / RBI",
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Individual/joint farmers, tenant farmers, sharecroppers, and SHGs of farmers",
+        "hi": "व्यक्तिगत/संयुक्त किसान, काश्तकार किसान, बटाईदार और किसानों के स्वयं सहायता समूह",
+        "ur": "انفرادی/مشترکہ کسان، کرایہ دار، بٹائی دار اور کسانوں کے سیلف ہیلپ گروپس"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 75 },
+        "income": null,
+        "occupations": ["farmer"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.landRecord", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.bankBranch", "step.submit", "step.track"],
+      "applicationUrl": "https://www.myscheme.gov.in/schemes/kcc",
+      "sourceUrl": "https://agricoop.nic.in/",
+      "sourcePublisher": "Ministry of Agriculture and Farmers Welfare",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bihar-fasal-sahayata",
+      "name": {
+        "en": "Bihar Rajya Fasal Sahayata Yojana (BRFSY)",
+        "hi": "बिहार राज्य फसल सहायता योजना (बीआरएफएसवाई)",
+        "ur": "بہار ریاستی فصل امدادی منصوبہ"
+      },
+      "description": {
+        "en": "Zero-premium crop assistance scheme for farmers of Bihar providing compensation in case of natural crop damage.",
+        "hi": "बिहार के रैयत एवं गैर-रैयत किसानों के लिए बिना किसी प्रीमियम के प्राकृतिक फसल क्षति पर सीधी वित्तीय सहायता योजना।",
+        "ur": "بہار کے کسانوں کے لیے قدرتی فصل کے نقصان کی صورت میں بلا پریمیم براہ راست مالی امدادی منصوبہ۔"
+      },
+      "benefits": {
+        "en": "Assistance of ₹7,500/hectare for up to 20% crop loss, and ₹10,000/hectare for loss exceeding 20%, without any premium payment.",
+        "hi": "बिना किसी प्रीमियम भुगतान के 20% तक क्षति पर ₹7,500 प्रति हेक्टेयर तथा 20% से अधिक क्षति पर ₹10,000 प्रति हेक्टेयर सहायता।",
+        "ur": "بغیر کسی پریمیم کے 20 فیصد تک نقصان پر 7,500 روپے فی ہیکٹر اور 20 فیصد سے زائد پر 10,000 روپے فی ہیکٹر امداد۔"
+      },
+      "category": "agriculture",
+      "department": "Department of Co-operative, Government of Bihar",
+      "level": "state",
+      "governingState": "Bihar",
+      "applicableStates": ["Bihar"],
+      "targetBeneficiaries": {
+        "en": "Both ryot (landowning) and non-ryot (tenant/sharecropper) farmers domiciled in Bihar",
+        "hi": "बिहार में अधिवासित रैयत (भूमिस्वामी) और गैर-रैयत (बटाईदार) दोनों किसान",
+        "ur": "بہار میں رہائش پذیر ریت اور غیر ریت دونوں کسان"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["farmer"],
+        "genders": [],
+        "domicile": { "states": ["Bihar"], "certificateRequired": true },
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.domicileCertificate", "doc.bankPassbook", "doc.landRecord", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://pacsonline.bih.nic.in/fsy/",
+      "sourceUrl": "https://state.bihar.gov.in/cooperative/",
+      "sourcePublisher": "Cooperative Department, Bihar State Government",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-15",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-usp-csss",
+      "name": {
+        "en": "Central Sector Scheme of Scholarship for College and University Students (PM-USP CSSS)",
+        "hi": "कॉलेज और विश्वविद्यालय के छात्रों के लिए केंद्रीय क्षेत्र छात्रवृत्ति योजना (पीएम-यूएसपी)",
+        "ur": "کالج اور یونیورسٹی طلبہ کے لیے مرکزی وظیفہ اسکیم (پی ایم یو ایس پی)"
+      },
+      "description": {
+        "en": "Merit-cum-means scholarship for meritorious college and university students from low-income families pursuing regular graduate and post-graduate studies.",
+        "hi": "कम आय वाले परिवारों के मेधावी छात्रों के लिए नियमित उच्च शिक्षा (स्नातक एवं स्नातकोत्तर) जारी रखने हेतु छात्रवृत्ति।",
+        "ur": "کم آمدنی والے خاندانوں کے باصلاحیت طلبہ کے لیے اعلیٰ تعلیم جاری رکھنے کے لیے وظیفہ۔"
+      },
+      "benefits": {
+        "en": "₹12,000 per annum for undergraduate study (3 years) and ₹20,000 per annum for postgraduate study directly into the student's bank account.",
+        "hi": "स्नातक स्तर पर ₹12,000 प्रति वर्ष (प्रथम 3 वर्ष) और स्नातकोत्तर स्तर पर ₹20,000 प्रति वर्ष सीधे बैंक खाते में।",
+        "ur": "انڈرگریجویٹ کے لیے 12,000 روپے سالانہ اور پوسٹ گریجویٹ کے لیے 20,000 روپے سالانہ براہ راست بینک میں۔"
+      },
+      "category": "education",
+      "department": "Department of Higher Education, Ministry of Education, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Regular degree students scoring above 80th percentile in relevant stream in Class 12 board examination",
+        "hi": "12वीं बोर्ड परीक्षा में संबंधित संकाय में 80वें पर्सेंटाइल से ऊपर अंक प्राप्त करने वाले नियमित छात्र",
+        "ur": "بارہویں جماعت میں 80 پرسنٹائل سے اوپر حاصل کرنے والے ریگولر ڈگری طلبہ"
+      },
+      "eligibility": {
+        "age": { "min": 17, "max": 25 },
+        "income": { "max": 450000 },
+        "occupations": ["student"],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "isStudent", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.incomeCertificate", "doc.marksheet", "doc.studentId", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://scholarships.gov.in/",
+      "sourceUrl": "https://www.myscheme.gov.in/schemes/csss",
+      "sourcePublisher": "National Scholarship Portal / Ministry of Education",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "post-matric-sc",
+      "name": {
+        "en": "Post Matric Scholarship for SC Students",
+        "hi": "अनुसूचित जाति के छात्रों के लिए पोस्ट मैट्रिक छात्रवृत्ति योजना",
+        "ur": "شیڈولڈ کاسٹ طلبہ کے لیے پوسٹ میٹرک اسکالرشپ"
+      },
+      "description": {
+        "en": "Financial assistance to Scheduled Caste students studying at post-matriculation or post-secondary stage to enable them to complete their education.",
+        "hi": "अनुसूचित जाति के विद्यार्थियों को मैट्रिक उपरांत या उच्च शिक्षा पूरी करने हेतु अनिवार्य शिक्षण शुल्क प्रतिपूर्ति एवं अनुरक्षण भत्ता।",
+        "ur": "شیڈولڈ کاسٹ کے طلبہ کو میٹرک کے بعد تعلیم جاری رکھنے کے لیے لازمی فیس اور دیکھ بھال کا الاؤنس۔"
+      },
+      "benefits": {
+        "en": "100% compulsory non-refundable fees reimbursement plus annual maintenance allowance up to ₹13,500 per year.",
+        "hi": "100% अनिवार्य गैर-वापसी योग्य शिक्षण शुल्क की प्रतिपूर्ति तथा ₹13,500 प्रति वर्ष तक का रखरखाव भत्ता।",
+        "ur": "لازمی نان ریفنڈ ایبل فیس کی مکمل واپسی اور 13,500 روپے سالانہ تک دیکھ بھال الاؤنس۔"
+      },
+      "category": "education",
+      "department": "Ministry of Social Justice and Empowerment, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Scheduled Caste students enrolled in recognized post-secondary courses with family income within limits",
+        "hi": "मान्यता प्राप्त उत्तर-माध्यमिक पाठ्यक्रमों में नामांकित अनुसूचित जाति के विद्यार्थी",
+        "ur": "تسلیم شدہ پوسٹ سیکنڈری کورسز میں زیر تعلیم شیڈولڈ کاسٹ طلبہ"
+      },
+      "eligibility": {
+        "age": { "min": 15, "max": 35 },
+        "income": { "max": 250000 },
+        "occupations": ["student"],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "isStudent", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.casteCertificate", "doc.incomeCertificate", "doc.marksheet", "doc.studentId", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://scholarships.gov.in/",
+      "sourceUrl": "https://socialjustice.gov.in/",
+      "sourcePublisher": "Ministry of Social Justice and Empowerment",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-16",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "post-matric-st",
+      "name": {
+        "en": "Post Matric Scholarship for ST Students",
+        "hi": "अनुसूचित जनजाति के छात्रों के लिए पोस्ट मैट्रिक छात्रवृत्ति",
+        "ur": "شیڈولڈ ٹرائب طلبہ کے لیے پوسٹ میٹرک وظیفہ"
+      },
+      "description": {
+        "en": "Centrally sponsored scholarship providing financial support to Scheduled Tribe students pursuing recognized post-matric education.",
+        "hi": "मान्यता प्राप्त मैट्रिक उपरांत शिक्षा प्राप्त कर रहे अनुसूचित जनजाति के विद्यार्थियों को आर्थिक सहायता प्रदान करने वाली योजना।",
+        "ur": "تسلیم شدہ پوسٹ میٹرک تعلیم حاصل کرنے والے شیڈولڈ ٹرائب طلبہ کے لیے مالی امداد کی مرکزی اسکیم۔"
+      },
+      "benefits": {
+        "en": "Complete reimbursement of compulsory course fees, study tour charges, thesis typing charges, and monthly maintenance allowance.",
+        "hi": "अनिवार्य पाठ्यक्रम शुल्क की पूर्ण प्रतिपूर्ति, अध्ययन भ्रमण शुल्क और मासिक रखरखाव भत्ता।",
+        "ur": "لازمی کورس فیس کی مکمل واپسی اور ماہانہ دیکھ بھال الاؤنس۔"
+      },
+      "category": "education",
+      "department": "Ministry of Tribal Affairs, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Scheduled Tribe students studying at recognized post-matric institutions",
+        "hi": "मान्यता प्राप्त संस्थानों में अध्ययनरत अनुसूचित जनजाति के विद्यार्थी",
+        "ur": "تسلیم شدہ تعلیمی اداروں میں زیر تعلیم شیڈولڈ ٹرائب طلبہ"
+      },
+      "eligibility": {
+        "age": { "min": 15, "max": 35 },
+        "income": { "max": 250000 },
+        "occupations": ["student"],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "isStudent", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.casteCertificate", "doc.incomeCertificate", "doc.marksheet", "doc.studentId", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://scholarships.gov.in/",
+      "sourceUrl": "https://tribal.nic.in/",
+      "sourcePublisher": "Ministry of Tribal Affairs, Government of India",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-16",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bihar-student-credit-card",
+      "name": {
+        "en": "Bihar Student Credit Card Yojana (BSCC / MNSSBY)",
+        "hi": "बिहार स्टूडेंट क्रेडिट कार्ड योजना (एमएनएसएसबीवाई)",
+        "ur": "بہار اسٹوڈنٹ کریڈٹ کارڈ یوجنا"
+      },
+      "description": {
+        "en": "Education loan up to ₹4 lakh at concessional interest rate backed by Bihar State Government guarantee for 12th pass students pursuing higher education.",
+        "hi": "12वीं पास छात्रों को उच्च शिक्षा (तकनीकी, सामान्य, प्रबंधन) के लिए बिहार सरकार की गारंटी पर ₹4 लाख तक का रियायती शिक्षा ऋण।",
+        "ur": "اعلیٰ تعلیم حاصل کرنے والے 12ویں پاس طلبہ کے لیے بہار حکومت کی ضمانت پر 4 لاکھ روپے تک کا رعایتی تعلیمی قرض۔"
+      },
+      "benefits": {
+        "en": "Education loan up to ₹4,00,000 at 4% simple interest (only 1% for women, transgender, and divyang students); repayment starts after course completion.",
+        "hi": "4% सरल ब्याज (महिलाओं, दिव्यांगों और ट्रांसजेंडरों के लिए केवल 1%) पर ₹4 लाख तक ऋण; पाठ्यक्रम समाप्ति के बाद चुकौती।",
+        "ur": "4 فیصد سادہ سود پر 4 لاکھ روپے تک تعلیمی قرض (خواتین اور معذوروں کے لیے صرف 1 فیصد)؛ کورس مکمل ہونے کے بعد ادائیگی۔"
+      },
+      "category": "education",
+      "department": "Bihar State Education Finance Corporation (BSEFC), Govt of Bihar",
+      "level": "state",
+      "governingState": "Bihar",
+      "applicableStates": ["Bihar"],
+      "targetBeneficiaries": {
+        "en": "12th pass students with Bihar domicile enrolled in recognized higher education courses",
+        "hi": "मान्यता प्राप्त उच्च शिक्षण संस्थानों में नामांकित बिहार अधिवास वाले 12वीं पास विद्यार्थी",
+        "ur": "بہار ڈومیسائل کے حامل 12ویں پاس طلبہ جو اعلیٰ تعلیم کے کورسز میں داخل ہیں"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 25 },
+        "income": null,
+        "occupations": ["student"],
+        "genders": [],
+        "domicile": { "states": ["Bihar"], "certificateRequired": true },
+        "requires": [{ "field": "isStudent", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.domicileCertificate", "doc.marksheet", "doc.studentId", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.cscKiosk", "step.track"],
+      "applicationUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+      "sourceUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+      "sourcePublisher": "Planning & Development Department / Education Department, Govt of Bihar",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-15",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bihar-swayam-sahayata-bhatta",
+      "name": {
+        "en": "Mukhyamantri Nishchay Swayam Sahayata Bhatta Yojana (MNSSBY)",
+        "hi": "मुख्यमंत्री निश्चय स्वयं सहायता भत्ता योजना (बिहार)",
+        "ur": "وزیر اعلیٰ نشچے سویم سہائتا بھتہ یوجنا (بہار)"
+      },
+      "description": {
+        "en": "Financial allowance of ₹1,000 per month for up to 2 years for unemployed 12th pass youth in Bihar actively searching for employment.",
+        "hi": "बिहार के 12वीं पास बेरोजगार युवाओं को रोजगार की तलाश के दौरान सहायता हेतु ₹1,000 प्रति माह 2 वर्ष (24 माह) तक का भत्ता।",
+        "ur": "بہار کے بے روزگار 12ویں پاس نوجوانوں کے لیے روزگار کی تلاش کے دوران 1000 روپے ماہانہ کا الاؤنس 2 سال تک۔"
+      },
+      "benefits": {
+        "en": "₹1,000 per month for maximum 24 months, along with free mandatory basic computer, language, and soft skills training (Kushal Yuva Program).",
+        "hi": "अधिकतम 24 माह तक ₹1,000 प्रति माह भत्ता, साथ ही कुशल युवा कार्यक्रम (केवाईपी) के अंतर्गत निःशुल्क कंप्यूटर और भाषा प्रशिक्षण।",
+        "ur": "زیادہ سے زیادہ 24 ماہ تک 1000 روپے ماہانہ، ساتھ ہی کوشل یووا پروگرام کے تحت مفت بنیادی کمپیوٹر اور مواصلاتی تربیت۔"
+      },
+      "category": "employment",
+      "department": "Planning and Development Department, Government of Bihar",
+      "level": "state",
+      "governingState": "Bihar",
+      "applicableStates": ["Bihar"],
+      "targetBeneficiaries": {
+        "en": "Unemployed youth aged 20-25 years who have passed 12th standard and are not pursuing higher studies",
+        "hi": "12वीं उत्तीर्ण 20 से 25 वर्ष के बेरोजगार युवा जो आगे की पढ़ाई नहीं कर रहे हैं",
+        "ur": "20 سے 25 سال کے بے روزگار نوجوان جنہوں نے 12ویں پاس کی ہے اور مزید تعلیم حاصل نہیں کر رہے"
+      },
+      "eligibility": {
+        "age": { "min": 20, "max": 25 },
+        "income": null,
+        "occupations": ["unemployed"],
+        "genders": [],
+        "domicile": { "states": ["Bihar"], "certificateRequired": true },
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.domicileCertificate", "doc.marksheet", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.cscKiosk", "step.track"],
+      "applicationUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+      "sourceUrl": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+      "sourcePublisher": "Planning & Development Department, Bihar",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-15",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bihar-kanya-utthan-grad",
+      "name": {
+        "en": "Mukhyamantri Kanya Utthan Yojana (Graduation Incentive)",
+        "hi": "मुख्यमंत्री कन्या उत्थान योजना (स्नातक प्रोत्साहन)",
+        "ur": "وزیر اعلیٰ کنیا اتھان یوجنا (گریجویشن ترغیب)"
+      },
+      "description": {
+        "en": "One-time financial incentive of ₹50,000 provided to graduated female students with Bihar domicile to promote women's higher education and independence.",
+        "hi": "महिला सशक्तिकरण और उच्च शिक्षा को बढ़ावा देने हेतु बिहार के मान्यता प्राप्त विश्वविद्यालयों से स्नातक उत्तीर्ण छात्राओं को ₹50,000 की प्रोत्साहन राशि।",
+        "ur": "بہار کی تسلیم شدہ یونیورسٹیوں سے گریجویشن پاس کرنے والی طالبات کے لیے 50,000 روپے کی یکمشت مالی ترغیب۔"
+      },
+      "benefits": {
+        "en": "Direct bank transfer of ₹50,000 one-time financial grant upon successful completion of bachelor's degree.",
+        "hi": "स्नातक डिग्री सफलतापूर्वक उत्तीर्ण करने पर सीधे बैंक खाते में ₹50,000 की एकमुश्त वित्तीय प्रोत्साहन राशि।",
+        "ur": "بیچلر ڈگری مکمل کرنے پر براہ راست بینک اکاؤنٹ میں 50,000 روپے کی یکمشت گرانٹ۔"
+      },
+      "category": "welfare",
+      "department": "Education Department, Government of Bihar",
+      "level": "state",
+      "governingState": "Bihar",
+      "applicableStates": ["Bihar"],
+      "targetBeneficiaries": {
+        "en": "Female students who have graduated from recognized universities/colleges in Bihar",
+        "hi": "बिहार के मान्यता प्राप्त विश्वविद्यालयों/कॉलेजों से स्नातक उत्तीर्ण छात्राएं",
+        "ur": "بہار کے تسلیم شدہ کالجوں سے گریجویشن مکمل کرنے والی طالبات"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 35 },
+        "income": null,
+        "occupations": ["student", "employed", "unemployed", "other"],
+        "genders": ["female"],
+        "domicile": { "states": ["Bihar"], "certificateRequired": true },
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.domicileCertificate", "doc.marksheet", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://medhasoft.bih.nic.in/",
+      "sourceUrl": "https://state.bihar.gov.in/",
+      "sourcePublisher": "Education Department, Bihar Government",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-15",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ayushman-bharat-pmjay",
+      "name": {
+        "en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना (एबी-पीएमजेएवाई)",
+        "ur": "آیوشمان بھارت - وزیر اعظم جن آروگیہ یوجنا"
+      },
+      "description": {
+        "en": "World's largest government-funded health assurance scheme providing cashless secondary and tertiary hospitalization cover up to ₹5 lakh per family per year.",
+        "hi": "पात्र गरीब एवं वंचित परिवारों को द्वितीयक और तृतीयक देखभाल हेतु प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस स्वास्थ्य बीमा।",
+        "ur": "غریب اور پسماندہ خاندانوں کے لیے 5 لاکھ روپے سالانہ تک کا مفت کیش لیس ہسپتال علاج کور۔"
+      },
+      "benefits": {
+        "en": "Cashless and paperless access to healthcare services up to ₹5,00,000 per family per year across 28,000+ empanelled hospitals nationwide.",
+        "hi": "देशभर के 28,000+ संबद्ध अस्पतालों में प्रति परिवार प्रति वर्ष ₹5,00,000 तक कैशलेस उपचार एवं दवाइयां।",
+        "ur": "ملک بھر کے 28,000 سے زائد ہسپتالوں میں فی خاندان سالانہ 5 لاکھ روپے تک کیش لیس علاج۔"
+      },
+      "category": "health",
+      "department": "National Health Authority, Ministry of Health and Family Welfare, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Bottom 40% vulnerable and poor families identified in Socio-Economic Caste Census (SECC) database",
+        "hi": "सामाजिक-आर्थिक जाति जनगणना (एसईसीसी) डेटाबेस में चिह्नित आर्थिक रूप से कमजोर परिवार",
+        "ur": "سماجی اقتصادی مردم شماری میں شناخت شدہ معاشی طور پر کمزور خاندان"
+      },
+      "eligibility": {
+        "age": { "min": null, "max": null },
+        "income": { "max": 250000 },
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.rationCard", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.cscKiosk", "step.verification", "step.track"],
+      "applicationUrl": "https://beneficiary.nha.gov.in/",
+      "sourceUrl": "https://pmjay.gov.in/",
+      "sourcePublisher": "National Health Authority (NHA)",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-20",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-matru-vandana",
+      "name": {
+        "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+        "hi": "प्रधानमंत्री मातृ वंदना योजना (पीएमएमवीवाई)",
+        "ur": "وزیر اعظم ماتر وندنا یوجنا"
+      },
+      "description": {
+        "en": "Direct cash incentive for pregnant women and lactating mothers for health checkups, institutional delivery, and nutritional support.",
+        "hi": "गर्भवती महिलाओं और स्तनपान कराने वाली माताओं को पोषण एवं स्वास्थ्य सुधार हेतु प्रत्यक्ष वित्तीय सहायता।",
+        "ur": "حاملہ خواتین اور دودھ پلانے والی ماؤں کے لیے غذائیت اور صحت کی دیکھ بھال کے لیے مالی امداد۔"
+      },
+      "benefits": {
+        "en": "₹5,000 in two installments for the first child, and ₹6,000 in a single installment for the second child if it is a girl child.",
+        "hi": "पहले बच्चे के जन्म पर ₹5,000 (दो किस्तों में) और दूसरे बच्चे के बालिका होने पर ₹6,000 की प्रोत्साहन राशि।",
+        "ur": "پہلے بچے پر 5000 روپے اور دوسری بیٹی کی پیدائش پر 6000 روپے کی مالی ترغیب۔"
+      },
+      "category": "welfare",
+      "department": "Ministry of Women and Child Development, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Pregnant and lactating mothers aged 19 years and above",
+        "hi": "19 वर्ष या उससे अधिक आयु की गर्भवती एवं धात्री महिलाएं",
+        "ur": "19 سال اور اس سے زائد عمر کی حاملہ اور دودھ پلانے والی خواتین"
+      },
+      "eligibility": {
+        "age": { "min": 19, "max": 45 },
+        "income": { "max": 800000 },
+        "occupations": ["unemployed", "selfEmployed", "other", "farmer", "employed"],
+        "genders": ["female"],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.maternityCard", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.cscKiosk", "step.track"],
+      "applicationUrl": "https://pmmvy.wcd.gov.in/",
+      "sourceUrl": "https://wcd.nic.in/",
+      "sourcePublisher": "Ministry of Women and Child Development",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "sukanya-samriddhi-yojana",
+      "name": {
+        "en": "Sukanya Samriddhi Yojana (SSY)",
+        "hi": "सुकन्या समृद्धि योजना (एसएसवाई)",
+        "ur": "سکنیا سمردھی یوجنا"
+      },
+      "description": {
+        "en": "Government-backed small savings scheme designed for the future education and marriage expenses of girl children with attractive tax-exempt returns.",
+        "hi": "बालिकाओं के उज्ज्वल भविष्य, उच्च शिक्षा और विवाह हेतु सरकार समर्थित उच्च ब्याज दर वाली छोटी बचत योजना।",
+        "ur": "بچیوں کی اعلیٰ تعلیم اور شادی کے لیے حکومت ہند کی پرکشش منافع بخش بچت اسکیم۔"
+      },
+      "benefits": {
+        "en": "High sovereign-backed interest rate (8.2% p.a.), complete tax exemption under Section 80C, and compounding interest until 21 years maturity.",
+        "hi": "8.2% प्रति वर्ष की उच्च ब्याज दर, धारा 80सी के तहत पूर्ण कर छूट तथा 21 वर्ष में परिपक्वता।",
+        "ur": "8.2 فیصد سالانہ کی اعلیٰ شرح سود، انکم ٹیکس سے مکمل چھوٹ اور 21 سال میں پختگی۔"
+      },
+      "category": "welfare",
+      "department": "National Savings Institute, Ministry of Finance, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Girl child up to 10 years of age through parents or legal guardians",
+        "hi": "माता-पिता या कानूनी अभिभावकों के माध्यम से 10 वर्ष तक की आयु की बालिकाएं",
+        "ur": "والدین کے ذریعے 10 سال تک کی عمر کی بچیاں"
+      },
+      "eligibility": {
+        "age": { "min": 0, "max": 10 },
+        "income": null,
+        "occupations": [],
+        "genders": ["female"],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.birthCertificate", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.bankBranch", "step.submit", "step.track"],
+      "applicationUrl": "https://www.indiapost.gov.in/Financial/Pages/Content/Sukanya-Samriddhi-Account.aspx",
+      "sourceUrl": "https://www.nsiindia.gov.in/",
+      "sourcePublisher": "National Savings Institute / India Post",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ignoaps-pension",
+      "name": {
+        "en": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS / NSAP)",
+        "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (आईजीएनओएपीएस)",
+        "ur": "اندرا گاندھی قومی اولڈ ایج پنشن اسکیم"
+      },
+      "description": {
+        "en": "Monthly non-contributory social security pension for destitute senior citizens aged 60 and above living below poverty line.",
+        "hi": "गरीबी रेखा से नीचे (बीपीएल) जीवन यापन करने वाले 60 वर्ष या उससे अधिक आयु के बुजुर्ग नागरिकों के लिए मासिक सामाजिक सुरक्षा पेंशन।",
+        "ur": "غربت کی لکیر سے نیچے زندگی گزارنے والے 60 سال اور اس سے زائد عمر کے بزرگ شہریوں کے لیے ماہانہ پنشن۔"
+      },
+      "benefits": {
+        "en": "Monthly pension (₹200/mo for age 60-79, ₹500/mo for 80+ from Centre, supplemented by ₹400-₹1,000 from State Government) directly to bank account.",
+        "hi": "60-79 वर्ष के लिए ₹200 तथा 80 वर्ष से अधिक के लिए ₹500 प्रतिमाह केंद्र से, साथ ही राज्य सरकार का अतिरिक्त अंशदान।",
+        "ur": "ماہانہ پنشن براہ راست بینک میں مرکزی اور ریاستی حکومت کے اشتراک سے۔"
+      },
+      "category": "pension",
+      "department": "Ministry of Rural Development, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Elderly persons aged 60 years and above from BPL households",
+        "hi": "बीपीएल परिवारों के 60 वर्ष या उससे अधिक आयु के वृद्धजन",
+        "ur": "بی پی ایل خاندانوں کے 60 سال اور اس سے زائد عمر کے بزرگ"
+      },
+      "eligibility": {
+        "age": { "min": 60, "max": null },
+        "income": { "max": 120000 },
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.ageProof", "doc.rationCard", "doc.incomeCertificate", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.cscKiosk", "step.verification", "step.track"],
+      "applicationUrl": "https://nsap.nic.in/",
+      "sourceUrl": "https://nsap.nic.in/",
+      "sourcePublisher": "National Social Assistance Programme, Ministry of Rural Development",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "atal-pension-yojana",
+      "name": {
+        "en": "Atal Pension Yojana (APY)",
+        "hi": "अटल पेंशन योजना (एपीवाई)",
+        "ur": "اٹل پنشن یوجنا (اے پی وائی)"
+      },
+      "description": {
+        "en": "Government-guaranteed pension scheme primarily aimed at workers in the unorganised sector to secure regular post-retirement monthly income.",
+        "hi": "असंगठित क्षेत्र के कामगारों के लिए 60 वर्ष की आयु के बाद नियमित मासिक आय सुनिश्चित करने वाली सरकारी गारंटीयुक्त पेंशन योजना।",
+        "ur": "غیر منظم شعبے کے مزدوروں کے لیے ریٹائرمنٹ کے بعد ماہانہ آمدنی کو یقینی بنانے والی سرکاری پنشن اسکیم۔"
+      },
+      "benefits": {
+        "en": "Guaranteed monthly pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000, or ₹5,000 from age 60, with return of accumulated pension corpus to nominee.",
+        "hi": "60 वर्ष की आयु से ₹1,000 से ₹5,000 तक की आजीवन मासिक गारंटीकृत पेंशन, तथा मृत्यु के उपरांत नामांकित व्यक्ति को पूरी राशि की वापसी।",
+        "ur": "60 سال کی عمر سے 1000 سے 5000 روپے تک ماہانہ گارنٹی شدہ پنشن۔"
+      },
+      "category": "pension",
+      "department": "Pension Fund Regulatory and Development Authority (PFRDA), Ministry of Finance",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "All Indian bank account holders aged 18 to 40 years not covered under statutory social security",
+        "hi": "18 से 40 वर्ष के सभी भारतीय बैंक खाताधारक नागरिक",
+        "ur": "18 سے 40 سال کے تمام ہندوستانی بینک کھاتہ دار شہری"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 40 },
+        "income": null,
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.bankBranch", "step.submit", "step.track"],
+      "applicationUrl": "https://enps.nsdl.com/eNPS/ApySubRegistration.html",
+      "sourceUrl": "https://www.pfrda.org.in/",
+      "sourcePublisher": "Pension Fund Regulatory and Development Authority",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-awas-gramin",
+      "name": {
+        "en": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "hi": "प्रधानमंत्री आवास योजना - ग्रामीण (पीएमएवाई-जी)",
+        "ur": "وزیر اعظم آواس یوجنا - دیہی"
+      },
+      "description": {
+        "en": "Financial assistance to houseless rural families and those living in kutcha or dilapidated houses for constructing durable pucca houses.",
+        "hi": "ग्रामीण क्षेत्रों में बेघर या कच्चे/जर्जर मकानों में रहने वाले पात्र परिवारों को पक्के आवास निर्माण हेतु आर्थिक सहायता।",
+        "ur": "دیہی علاقوں میں بے گھر یا کچے مکانات میں رہنے والے غریب خاندانوں کے لیے پکے گھر بنانے کے لیے مالی امداد۔"
+      },
+      "benefits": {
+        "en": "Grant of ₹1,20,000 in plains and ₹1,30,000 in hilly/difficult areas, plus ₹12,000 for toilet under SBM and 90-95 days unskilled MGNREGS wages.",
+        "hi": "मैदानी इलाकों में ₹1,20,000 और पहाड़ी/कठिन क्षेत्रों में ₹1,30,000 की सहायता, साथ ही शौचालय हेतु ₹12,000 व मनरेगा मजदूरी।",
+        "ur": "میدانی علاقوں میں 1,20,000 اور پہاڑی علاقوں میں 1,30,000 روپے کی مالی گرانٹ۔"
+      },
+      "category": "housing",
+      "department": "Ministry of Rural Development, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Deprived and houseless rural households registered in SECC 2011 and Awaas+ list",
+        "hi": "एसईसीसी 2011 एवं आवास+ सूची में दर्ज बेघर एवं कच्चे मकानों में रहने वाले ग्रामीण परिवार",
+        "ur": "ایس ای سی سی اور آواس پلس لسٹ میں درج دیہی بے گھر خاندان"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": { "max": 180000 },
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.rationCard", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.cscKiosk", "step.verification", "step.track"],
+      "applicationUrl": "https://pmayg.nic.in/",
+      "sourceUrl": "https://pmayg.nic.in/",
+      "sourcePublisher": "Ministry of Rural Development, Government of India",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-ujjwala-yojana",
+      "name": {
+        "en": "Pradhan Mantri Ujjwala Yojana (PMUY 2.0)",
+        "hi": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाई 2.0)",
+        "ur": "وزیر اعظم اجولا یوجنا 2.0"
+      },
+      "description": {
+        "en": "Deposit-free LPG connections to adult women from poor and deprived households to provide clean cooking fuel and safeguard family health.",
+        "hi": "गरीब परिवारों की वयस्क महिलाओं को स्वच्छ रसोई ईंधन उपलब्ध कराने हेतु निःशुल्क एलपीजी गैस कनेक्शन योजना।",
+        "ur": "غریب گھرانوں کی بالغ خواتین کو صاف کھانا پکانے کے لیے مفت ایل پی جی گیس کنکشن فراہم کرنے کی اسکیم۔"
+      },
+      "benefits": {
+        "en": "Completely deposit-free LPG connection including regulator, hose, domestic consumer card, along with free first refill and hotplate gas stove.",
+        "hi": "सिलेंडर सुरक्षा जमा, रेगुलेटर, पाइप, पहली रिफिल और गैस चूल्हा पूरी तरह निःशुल्क प्रदान किया जाता है।",
+        "ur": "سلنڈر ڈیپازٹ، ریگولیٹر، پہلا ری فل اور چولہا مکمل طور پر مفت۔"
+      },
+      "category": "welfare",
+      "department": "Ministry of Petroleum and Natural Gas, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Adult women from BPL households, SC/ST, and rural low-income families without an existing LPG connection",
+        "hi": "बीपीएल, एससी/एसटी और ग्रामीण गरीब परिवारों की वयस्क महिलाएं जिनके घर में पहले से गैस कनेक्शन नहीं है",
+        "ur": "بی پی ایل اور غریب گھرانوں کی بالغ خواتین جن کے گھر پہلے سے گیس کنکشن نہیں ہے"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": { "max": 200000 },
+        "occupations": [],
+        "genders": ["female"],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.rationCard", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.bankBranch", "step.track"],
+      "applicationUrl": "https://www.pmuy.gov.in/",
+      "sourceUrl": "https://www.pmuy.gov.in/",
+      "sourcePublisher": "Ministry of Petroleum and Natural Gas",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-mudra-yojana",
+      "name": {
+        "en": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "hi": "प्रधानमंत्री मुद्रा योजना (पीएमएमवाई)",
+        "ur": "وزیر اعظم مدرا یوجنا"
+      },
+      "description": {
+        "en": "Collateral-free institutional micro-credit loans up to ₹10 lakh to non-corporate, non-farm small and micro enterprises.",
+        "hi": "गैर-कॉर्पोरेट, गैर-कृषि लघु एवं सूक्ष्म उद्यमों को बिना किसी गारंटी के ₹10 लाख तक का संस्थागत व्यापार ऋण।",
+        "ur": "غیر کارپوریٹ چھوٹے اور مائیکرو کاروباروں کے لیے بلا ضمانت 10 لاکھ روپے تک کا رعایتی قرض۔"
+      },
+      "benefits": {
+        "en": "Loans in 3 categories: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5,00,000), and Tarun (₹5,00,001 to ₹10,00,000) with zero collateral requirements.",
+        "hi": "तीन श्रेणियां: शिशु (₹50,000 तक), किशोर (₹50,001 से ₹5,00,000) और तरुण (₹5,00,001 से ₹10,00,000) बिना किसी बंधक (कोलैटरल) के।",
+        "ur": "تین زمرے: ششو (50 ہزار تک)، کشور (5 لاکھ تک)، اور ترن (10 لاکھ تک) بغیر کسی ضمانت کے۔"
+      },
+      "category": "business",
+      "department": "Department of Financial Services, Ministry of Finance, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Small business owners, shopkeepers, service providers, artisans, and budding entrepreneurs",
+        "hi": "छोटे दुकानदार, व्यापारी, कारीगर, सेवा प्रदाता एवं नए व्यवसाय शुरू करने वाले उद्यमी",
+        "ur": "چھوٹے دکاندار، تاجر، دستکار اور نیا کاروبار شروع کرنے والے کاروباری"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 65 },
+        "income": null,
+        "occupations": ["selfEmployed", "unemployed", "employed"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.businessProof", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.bankBranch", "step.submit", "step.track"],
+      "applicationUrl": "https://www.udyamimitra.in/",
+      "sourceUrl": "https://www.mudra.org.in/",
+      "sourcePublisher": "Micro Units Development & Refinance Agency (MUDRA)",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-svanidhi",
+      "name": {
+        "en": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi)",
+        "hi": "पीएम स्वनिधि (प्रधानमंत्री स्ट्रीट वेंडर्स आत्मनिर्भर निधि)",
+        "ur": "پی ایم سواندھی (اسٹریٹ وینڈرز آتم نربھر ندھی)"
+      },
+      "description": {
+        "en": "Affordable collateral-free working capital micro-credit for urban street vendors and hawkers to restart and expand their livelihood.",
+        "hi": "शहरी और अर्ध-शहरी रेहड़ी-पटरी विक्रेताओं (स्ट्रीट वेंडरों) को अपनी आजीविका संवारने हेतु आसान कार्यशील पूंजी ऋण।",
+        "ur": "شہری اسٹریٹ وینڈرز کے لیے بلا ضمانت آسان ورکنگ کیپیٹل قرض اسکیم۔"
+      },
+      "benefits": {
+        "en": "Collateral-free loan of ₹10,000 (1st tranche), ₹20,000 (2nd tranche), and ₹50,000 (3rd tranche) with 7% interest subsidy and cashback for digital transactions.",
+        "hi": "प्रथम चरण में ₹10,000, द्वितीय में ₹20,000 और तृतीय में ₹50,000 का ऋण; 7% ब्याज सब्सिडी और डिजिटल लेनदेन पर ₹1,200/वर्ष तक कैशबैक।",
+        "ur": "پہلے مرحلے میں 10 ہزار، دوسرے میں 20 ہزار اور تیسرے میں 50 ہزار تک کا قرض، 7 فیصد سود کی رعایت کے ساتھ۔"
+      },
+      "category": "business",
+      "department": "Ministry of Housing and Urban Affairs, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Urban and peri-urban street vendors and hawkers engaged in vending",
+        "hi": "शहरी व अर्ध-शहरी क्षेत्रों में रेहड़ी, पटरी, ठेला लगाने वाले वेंडर",
+        "ur": "شہروں میں ریڑھی اور ٹھیلا لگانے والے دکاندار"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["selfEmployed"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.vendorProof", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.cscKiosk", "step.track"],
+      "applicationUrl": "https://pmsvanidhi.mohua.gov.in/",
+      "sourceUrl": "https://pmsvanidhi.mohua.gov.in/",
+      "sourcePublisher": "Ministry of Housing and Urban Affairs",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-vishwakarma",
+      "name": {
+        "en": "PM Vishwakarma Scheme",
+        "hi": "पीएम विश्वकर्मा योजना",
+        "ur": "وزیر اعظم وشوکرما یوجنا"
+      },
+      "description": {
+        "en": "Holistic support to traditional artisans and craftspeople working with hands and tools across 18 designated trades including skill training, toolkits, and low-interest credit.",
+        "hi": "पारंपरिक 18 ट्रेडों में हाथ और औजारों से काम करने वाले कारीगरों और शिल्पकारों को पहचान, कौशल प्रशिक्षण, आधुनिक टूलकिट और रियायती ऋण सहायता।",
+        "ur": "18 روایتی پیشوں میں ہاتھ اور اوزاروں سے کام کرنے والے کاریگروں کے لیے تربیت، ٹول کٹ اور رعایتی قرض اسکیم۔"
+      },
+      "benefits": {
+        "en": "PM Vishwakarma Certificate & ID, ₹500/day stipend during skill training, ₹15,000 modern toolkit grant, and collateral-free enterprise loan up to ₹3,00,000 at 5% interest.",
+        "hi": "विश्वकर्मा प्रमाण पत्र एवं आईडी, प्रशिक्षण दौरान ₹500/दिन वजीफा, ₹15,000 आधुनिक टूलकिट वाउचर, तथा 5% ब्याज पर ₹3 लाख तक का गारंटी-मुक्त ऋण।",
+        "ur": "سرٹیفکیٹ، تربیت کے دوران 500 روپے یومیہ وظیفہ، 15,000 روپے کی ٹول کٹ گرانٹ، اور 5% سود پر 3 لاکھ روپے تک کا قرض۔"
+      },
+      "category": "business",
+      "department": "Ministry of Micro, Small and Medium Enterprises, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Traditional artisans and craftsmen working in carpentry, blacksmithing, pottery, sculpting, cobbling, masonry, tailoring, etc.",
+        "hi": "बढ़ई, लोहार, कुम्हार, मूर्तिकार, मोची, राजमिस्त्री, दर्जी आदि 18 पारंपरिक शिल्पों में संलग्न कारीगर",
+        "ur": "بڑھئی، لوہار، کمہار، موچی، راج مستری، درزی وغیرہ سمیت روایتی کاریگر"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["selfEmployed", "farmer", "other"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.cscKiosk", "step.verification", "step.track"],
+      "applicationUrl": "https://pmvishwakarma.gov.in/",
+      "sourceUrl": "https://pmvishwakarma.gov.in/",
+      "sourcePublisher": "Ministry of MSME, Government of India",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pmegp-scheme",
+      "name": {
+        "en": "Prime Minister's Employment Generation Programme (PMEGP)",
+        "hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम (पीएमईजीपी)",
+        "ur": "وزیر اعظم روزگار پیدا کرنے کا پروگرام (پی ایم ای جی پی)"
+      },
+      "description": {
+        "en": "Credit-linked capital subsidy program to assist micro-enterprises in manufacturing and service sectors, generating sustainable employment in urban and rural areas.",
+        "hi": "विनिर्माण एवं सेवा क्षेत्र में सूक्ष्म उद्योग स्थापित करने हेतु बैंकों के माध्यम से 15% से 35% तक की पूंजीगत सब्सिडी (मार्जिन मनी) सहायता योजना।",
+        "ur": "مینوفیکچرنگ اور سروسز کے شعبے میں مائیکرو کاروبار شروع کرنے کے لیے 15% سے 35% تک کی کیپیٹل سبسڈی اسکیم۔"
+      },
+      "benefits": {
+        "en": "Government subsidy of 15% to 35% on project cost up to ₹50 lakh for manufacturing units and ₹20 lakh for service units.",
+        "hi": "विनिर्माण हेतु ₹50 लाख तक तथा सेवा क्षेत्र हेतु ₹20 लाख तक की परियोजना लागत पर 15% से 35% तक सरकारी सब्सिडी।",
+        "ur": "مینوفیکچرنگ کے لیے 50 لاکھ اور سروس کے لیے 20 لاکھ روپے تک کے منصوبوں پر 15 سے 35 فیصد تک کی سرکاری سبسڈی۔"
+      },
+      "category": "employment",
+      "department": "Ministry of Micro, Small and Medium Enterprises / KVIC",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Individuals above 18 years, SHGs, and cooperative societies establishing new micro-enterprises",
+        "hi": "18 वर्ष से अधिक आयु के नागरिक, स्वयं सहायता समूह जो नई सूक्ष्म इकाइयां स्थापित करना चाहते हैं",
+        "ur": "18 سال سے زیادہ عمر کے افراد اور سیلف ہیلپ گروپس جو نیا مائیکرو کاروبار لگانا چاہتے ہیں"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["unemployed", "selfEmployed"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.businessProof", "doc.casteCertificate", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.bankBranch", "step.track"],
+      "applicationUrl": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
+      "sourceUrl": "https://msme.gov.in/",
+      "sourcePublisher": "Khadi and Village Industries Commission (KVIC) / Ministry of MSME",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "divyangjan-swavalamban",
+      "name": {
+        "en": "Divyangjan Swavalamban Yojana",
+        "hi": "दिव्यांगजन स्वावलंबन योजना (एनएचएफडीसी)",
+        "ur": "معذور افراد خود انحصاری منصوبہ"
+      },
+      "description": {
+        "en": "Concessional loan assistance to persons with disabilities for self-employment ventures, higher education, and purchasing assistive professional equipment.",
+        "hi": "दिव्यांग व्यक्तियों को स्वरोजगार, उच्च शिक्षा एवं आजीविका उपकरण खरीदने हेतु रियायती ब्याज दर पर ऋण सहायता योजना।",
+        "ur": "معذور افراد کو خود روزگار، اعلیٰ تعلیم اور ساز و سامان خریدنے کے لیے رعایتی قرض کی اسکیم۔"
+      },
+      "benefits": {
+        "en": "Concessional loans up to ₹50,00,000 at interest rates between 5% and 9% per annum with rebate for women with disabilities.",
+        "hi": "5% से 9% की रियायती वार्षिक ब्याज दर पर ₹50,00,000 तक का ऋण, महिला दिव्यांगों के लिए विशेष ब्याज छूट।",
+        "ur": "5 سے 9 فیصد کی رعایتی شرح سود پر 50 لاکھ روپے تک کا آسان قرض، معذور خواتین کے لیے خصوصی رعایت۔"
+      },
+      "category": "disability",
+      "department": "National Handicapped Finance and Development Corporation (NHFDC), MoSJE",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Indian citizens with 40% or more certified disability (UDID/Disability Certificate)",
+        "hi": "40% या उससे अधिक प्रमाणित दिव्यांगता (यूडीआईडी कार्डधारक) वाले भारतीय नागरिक",
+        "ur": "40 فیصد یا اس سے زیادہ تصدیق شدہ معذوری والے ہندوستانی شہری"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 65 },
+        "income": null,
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "hasDisabilityCertificate", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.disabilityCertificate", "doc.bankPassbook", "doc.incomeCertificate", "doc.photo"],
+      "steps": ["step.gather", "step.bankBranch", "step.submit", "step.track"],
+      "applicationUrl": "https://nhfdc.nic.in/",
+      "sourceUrl": "https://disabilityaffairs.gov.in/",
+      "sourcePublisher": "Department of Empowerment of Persons with Disabilities",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "adip-scheme",
+      "name": {
+        "en": "Assistance to Disabled Persons for Purchase/Fitting of Aids and Appliances (ADIP)",
+        "hi": "दिव्यांग व्यक्तियों को सहायक उपकरण उपलब्ध कराने की योजना (एडीआईपी)",
+        "ur": "معذور افراد کے لیے امدادی آلات کی فراہمی کی اسکیم (اے ڈی آئی پی)"
+      },
+      "description": {
+        "en": "Free or highly subsidized modern assistive aids and specialized appliances for persons with disabilities to enhance physical mobility and economic independence.",
+        "hi": "दिव्यांग व्यक्तियों को शारीरिक गतिशीलता एवं स्वावलंबन हेतु आधुनिक सहायक यंत्र एवं उपकरण (व्हीलचेयर, ट्राइसाइकिल, श्रवण यंत्र आदि) निःशुल्क उपलब्ध कराना।",
+        "ur": "معذور افراد کو نقل و حرکت اور خود مختاری کے لیے مفت یا رعایتی جدید امدادی آلات کی فراہمی۔"
+      },
+      "benefits": {
+        "en": "100% free assistive aids and appliances up to ₹15,000 (up to ₹30,000 for high-cost devices) for family income up to ₹20,000/month; 50% aid for income ₹20,001-₹30,000.",
+        "hi": "प्रति माह ₹20,000 तक की पारिवारिक आय पर 100% निःशुल्क सहायक उपकरण; ₹20,001 से ₹30,000 आय पर 50% सहायता।",
+        "ur": "20 ہزار ماہانہ آمدنی پر 100 فیصد مفت آلات، اور 30 ہزار تک آمدنی پر 50 فیصد امداد۔"
+      },
+      "category": "disability",
+      "department": "Department of Empowerment of Persons with Disabilities / ALIMCO",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Persons with 40% or more certified disability holding UDID and meeting income criteria",
+        "hi": "40% या अधिक प्रमाणित दिव्यांगता वाले नागरिक जिनकी पारिवारिक आय निर्धारित सीमा में हो",
+        "ur": "40 فیصد یا اس سے زائد معذوری کے سرٹیفکیٹ کے حامل مستحق شہری"
+      },
+      "eligibility": {
+        "age": { "min": null, "max": null },
+        "income": { "max": 360000 },
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "hasDisabilityCertificate", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.disabilityCertificate", "doc.incomeCertificate", "doc.photo"],
+      "steps": ["step.gather", "step.cscKiosk", "step.verification", "step.track"],
+      "applicationUrl": "https://adip.depwd.gov.in/",
+      "sourceUrl": "https://adip.depwd.gov.in/",
+      "sourcePublisher": "Ministry of Social Justice and Empowerment / ALIMCO",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "bihar-udyami-yojana",
+      "name": {
+        "en": "Mukhyamantri Udyami Yojana (Bihar)",
+        "hi": "मुख्यमंत्री उद्यमी योजना (बिहार)",
+        "ur": "وزیر اعلیٰ ادیمی یوجنا (بہار)"
+      },
+      "description": {
+        "en": "Financial grant and soft loan package of ₹10 lakh to encourage micro and small enterprise manufacturing and service startups across Bihar.",
+        "hi": "बिहार में सूक्ष्म एवं लघु उद्योग स्थापित करने हेतु युवाओं, महिलाओं, एससी/एसटी और ईबीसी उद्यमियों को ₹10 लाख की वित्तीय सहायता पैकेज।",
+        "ur": "بہار میں نئے کاروبار اور چھوٹے کارخانے لگانے کے لیے نوجوانوں اور خواتین کو 10 لاکھ روپے کی مالی گرانٹ اور آسان قرض۔"
+      },
+      "benefits": {
+        "en": "Total incentive of ₹10,00,000 consisting of 50% non-repayable grant (₹5 lakh) plus 50% interest-free loan (1% for general men) repayable in 84 monthly installments.",
+        "hi": "कुल ₹10 लाख में से ₹5 लाख का अनुदान (माफ) तथा ₹5 लाख का ब्याजमुक्त ऋण (सामान्य पुरुषों के लिए 1%), 84 आसान किस्तों में वापसी।",
+        "ur": "کل 10 لاکھ روپے میں سے 5 لاکھ روپے کی گرانٹ (معاف) اور 5 لاکھ روپے کا بلا سود آسان قرض۔"
+      },
+      "category": "business",
+      "department": "Department of Industries, Government of Bihar",
+      "level": "state",
+      "governingState": "Bihar",
+      "applicableStates": ["Bihar"],
+      "targetBeneficiaries": {
+        "en": "Youth, SC/ST, EBC, and women having 12th/polytechnic/degree qualification with Bihar domicile",
+        "hi": "12वीं/पॉलिटेक्निक/डिग्री पास बिहार के स्थायी निवासी युवा, महिलाएं एवं उद्यमी",
+        "ur": "12ویں پاس بہار کے مستقل رہائشی نوجوان، خواتین اور نئے کاروباری"
+      },
+      "eligibility": {
+        "age": { "min": 18, "max": 50 },
+        "income": null,
+        "occupations": ["unemployed", "selfEmployed"],
+        "genders": [],
+        "domicile": { "states": ["Bihar"], "certificateRequired": true },
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.domicileCertificate", "doc.casteCertificate", "doc.marksheet", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.verification", "step.track"],
+      "applicationUrl": "https://udyami.bihar.gov.in/",
+      "sourceUrl": "https://udyami.bihar.gov.in/",
+      "sourcePublisher": "Department of Industries, Bihar State Government",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-15",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "pm-garib-kalyan-anna",
+      "name": {
+        "en": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+        "hi": "प्रधानमंत्री गरीब कल्याण अन्न योजना (पीएमजीकेएवाई)",
+        "ur": "وزیر اعظم غریب کلیان ان یوجنا"
+      },
+      "description": {
+        "en": "Free food security entitlement providing 5 kg of foodgrains per person per month to over 80 crore low-income citizens across India under NFSA.",
+        "hi": "राष्ट्रीय खाद्य सुरक्षा अधिनियम (एनएफएसए) के तहत गरीब परिवारों के प्रत्येक सदस्य को प्रति माह 5 किलो मुफ्त खाद्यान्न (गेहूं/चावल) वितरण।",
+        "ur": "این ایف ایس اے کے تحت غریب خاندانوں کے ہر فرد کو ماہانہ 5 کلو مفت اناج کی فراہمی۔"
+      },
+      "benefits": {
+        "en": "5 kg of foodgrains (wheat/rice/coarse grains) per person per month completely free of cost through Fair Price Shops.",
+        "hi": "उचित मूल्य की दुकानों (राशन की दुकान) से प्रति व्यक्ति प्रति माह 5 किलो खाद्यान्न पूर्णतः निःशुल्क।",
+        "ur": "راشن کی دکان سے فی کس ماہانہ 5 کلو اناج مکمل طور پر مفت۔"
+      },
+      "category": "welfare",
+      "department": "Department of Food and Public Distribution, Ministry of Consumer Affairs, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Priority Household (PHH) and Antyodaya Anna Yojana (AAY) ration card holding families",
+        "hi": "प्राथमिकता प्राप्त गृहस्थी (पीएचएच) एवं अंत्योदय अन्न योजना (एएवाई) राशन कार्डधारक परिवार",
+        "ur": "راشن کارڈ ہولڈر غریب اور پسماندہ خاندان"
+      },
+      "eligibility": {
+        "age": { "min": null, "max": null },
+        "income": { "max": 150000 },
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.rationCard", "doc.incomeCertificate"],
+      "steps": ["step.gather", "step.cscKiosk", "step.track"],
+      "applicationUrl": "https://nfsa.gov.in/",
+      "sourceUrl": "https://dfpd.gov.in/",
+      "sourcePublisher": "Ministry of Consumer Affairs, Food and Public Distribution",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "ddu-gky",
+      "name": {
+        "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+        "hi": "दीनदयाल उपाध्याय ग्रामीण कौशल्या योजना (डीडीयू-जीकेवाई)",
+        "ur": "دین دیال اپادھیائے دیہی ہنر مندی منصوبہ"
+      },
+      "description": {
+        "en": "Government placement-linked skill development initiative for poor rural youth providing free residential training with guaranteed job placement.",
+        "hi": "ग्रामीण गरीब युवाओं को मांग-आधारित व्यावसायिक कौशल प्रशिक्षण एवं निश्चित रोजगार प्रदान करने वाली केंद्र सरकार की प्रमुख योजना।",
+        "ur": "غریب دیہی نوجوانوں کو مفت رہائشی تکنیکی تربیت اور ملازمت فراہم کرنے کی اسکیم۔"
+      },
+      "benefits": {
+        "en": "Completely free residential skill training, free food, uniforms, study materials, tablet, post-placement stipend, and guaranteed minimum 70% job placement.",
+        "hi": "निःशुल्क आवासीय प्रशिक्षण, भोजन, पुस्तकें, टैबलेट, प्लेसमेंट उपरांत आर्थिक सहायता तथा कम से कम 70% प्रशिक्षित युवाओं को नौकरी की गारंटी।",
+        "ur": "مفت رہائشی تربیت، کھانا، اور کم از کم 70 فیصد نوجوانوں کو یقینی روزگار۔"
+      },
+      "category": "employment",
+      "department": "Ministry of Rural Development, Govt of India",
+      "level": "central",
+      "applicableStates": ["ALL"],
+      "targetBeneficiaries": {
+        "en": "Poor rural youth aged 15-35 years (up to 45 years for women, PwD, and vulnerable tribes)",
+        "hi": "15 से 35 वर्ष के ग्रामीण गरीब युवा (महिलाओं व दिव्यांगों हेतु 45 वर्ष तक)",
+        "ur": "15 سے 35 سال کے دیہی غریب نوجوان (خواتین اور معذوروں کے لیے 45 سال تک)"
+      },
+      "eligibility": {
+        "age": { "min": 15, "max": 35 },
+        "income": null,
+        "occupations": ["unemployed", "student"],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.rationCard", "doc.ageProof", "doc.bankPassbook", "doc.photo"],
+      "steps": ["step.gather", "step.onlinePortal", "step.cscKiosk", "step.track"],
+      "applicationUrl": "https://ddugky.gov.in/",
+      "sourceUrl": "https://ddugky.gov.in/",
+      "sourcePublisher": "Ministry of Rural Development",
+      "dateRetrieved": "2026-10-22",
+      "lastVerified": "2026-10-18",
+      "verificationStatus": "verified"
+    }
+  ]
+}

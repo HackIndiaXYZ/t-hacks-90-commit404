@@ -1,0 +1,6 @@
+{
+  "name": "SchemeSaathi - Indian Government Scheme Finder & Eligibility Assistant",
+  "description": "Discover verified Indian government schemes, check deterministic eligibility, identify missing criteria, track document checklists, and query in simple language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

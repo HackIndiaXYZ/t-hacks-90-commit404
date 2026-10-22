@@ -1,0 +1,41 @@
+/* Design tokens: every colour, size and font lives here, so the look can change in one place. */
+:root {
+  /* Palette: forest, ivory, sage, terracotta, with turmeric and marigold as small accents */
+  --forest: #1E3B2C;
+  --forest-deep: #14291F;
+  --ivory: #F5EEDC;
+  --paper: #FBF7EC;          /* inputs and raised surfaces */
+  --paper-2: #EDE3CB;        /* quiet bands */
+  --sage: #A8B79B;
+  --sage-soft: #DCE3CF;
+  --terracotta: #A4461F;     /* text-safe on ivory (5.2:1) */
+  --terracotta-fill: #B4532A;
+  --turmeric: #E2A82B;
+  --marigold: #C77D12;
+  --ink: #1B2620;
+  --ink-soft: #46544B;       /* secondary text (7:1 on ivory) */
+  --line: rgba(30, 59, 44, 0.22);
+
+  /* Type */
+  --font-display: 'Fraunces', 'Noto Serif Devanagari', 'Noto Naskh Arabic', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', 'Noto Sans Devanagari', 'Noto Naskh Arabic', system-ui, sans-serif;
+  --fs-sm: 0.9rem;
+  --fs-base: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: clamp(1.6rem, 2.4vw, 2.1rem);
+  --fs-hero: clamp(2.5rem, 5.4vw, 4.6rem);
+
+  /* Space scale */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px; --s9: 112px;
+
+  /* Shape */
+  --r-sm: 6px; --r-md: 10px; --r-pill: 999px;
+  --maxw: 1180px;
+
+  /* Decorative lattice (an eight-pointed star, drawn as a repeating pattern) */
+  --jaali: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cpath d='M28 4l5 11 12-4-4 12 11 5-11 5 4 12-12-4-5 11-5-11-12 4 4-12-11-5 11-5-4-12 12 4z' fill='none' stroke='%23A8B79B' stroke-width='1'/%3E%3C/svg%3E");
+}
+
+/* Script-specific type: Hindi and Urdu need more line height and no letter spacing. */
+html[lang='hi'] { --font-display: 'Noto Serif Devanagari', 'Noto Sans Devanagari', serif; --font-body: 'Noto Sans Devanagari', sans-serif; }
+html[lang='ur'] { --font-display: 'Noto Naskh Arabic', 'Noto Sans Arabic', serif; --font-body: 'Noto Naskh Arabic', 'Noto Sans Arabic', serif; }

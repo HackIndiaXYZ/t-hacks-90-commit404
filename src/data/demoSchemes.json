@@ -1,0 +1,167 @@
+{
+  "_readme": "DEMO DATA — ISOLATED FICTIONAL SCHEMES. Kept separate from verified production schemes.",
+  "schemes": [
+    {
+      "id": "demo-farmer-support",
+      "name": { "en": "Demo Farmer Income Support", "hi": "डेमो किसान आय सहायता", "ur": "ڈیمو کسان آمدنی معاونत" },
+      "description": {
+        "en": "Fictional sample: yearly support for farmers who own land and have a low family income.",
+        "hi": "काल्पनिक नमूना: जिन किसानों के पास अपनी ज़मीन है और परिवार की आय कम है, उनके लिए वार्षिक सहायता।",
+        "ur": "فرضی نمونہ: ان کسانوں کے لیے سالانہ معاونت جن کے پاس اپنی زمین ہے और خاندانی آمدنی کم ہے۔"
+      },
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "category": "agriculture",
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": { "max": 150000 },
+        "occupations": ["farmer"],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "ownsLand", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.bankPassbook", "doc.landRecord", "doc.incomeCertificate"],
+      "steps": ["step.gather", "step.form", "step.submit", "step.track"],
+      "applicationUrl": null,
+      "sourceUrl": null,
+      "lastVerified": null,
+      "verificationStatus": "demo"
+    },
+    {
+      "id": "demo-bihar-crop-aid",
+      "name": { "en": "Demo Bihar Crop Season Aid", "hi": "डेमो बिहार फसल मौसम सहायता", "ur": "ڈیمو بہار फसल سیزن امداد" },
+      "description": {
+        "en": "Fictional sample: seasonal aid for farmers who hold a Bihar domicile, wherever they live now.",
+        "hi": "काल्पनिक नमूना: बिहार के अधिवास वाले किसानों के लिए मौसमी सहायता, वे अभी जहाँ भी रहते हों।",
+        "ur": "فرضی نمونہ: بہار کے ڈومیسائل والے کسانوں کے لیے موسمی امداد، چاہے وہ اب کہیں بھی رہتے ہوں۔"
+      },
+      "level": "state",
+      "governingState": "Bihar",
+      "applicableStates": ["ALL"],
+      "category": "agriculture",
+      "eligibility": {
+        "age": { "min": 18, "max": null },
+        "income": null,
+        "occupations": ["farmer"],
+        "genders": [],
+        "domicile": { "states": ["Bihar"], "certificateRequired": true },
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.domicileCertificate", "doc.landRecord", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.form", "step.submit", "step.track"],
+      "applicationUrl": null,
+      "sourceUrl": null,
+      "lastVerified": null,
+      "verificationStatus": "demo"
+    },
+    {
+      "id": "demo-merit-scholarship",
+      "name": { "en": "Demo Merit Scholarship", "hi": "डेमो मेरिट छात्रवृत्ति", "ur": "ڈیمو میرٹ وظیفہ" },
+      "description": {
+        "en": "Fictional sample: a scholarship for students aged 16 to 30 from families with a modest income.",
+        "hi": "काल्पनिक नमूना: सीमित आय वाले परिवारों के 16 से 30 वर्ष के विद्यार्थियों के लिए छात्रवृत्ति।",
+        "ur": "فرضی نمونہ: محدود آمدنی والے خاندانوں کے 16 سے 30 سال کے طلبہ کے لیے وظیفہ۔"
+      },
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "category": "education",
+      "eligibility": {
+        "age": { "min": 16, "max": 30 },
+        "income": { "max": 250000 },
+        "occupations": ["student"],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "isStudent", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.studentId", "doc.incomeCertificate", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.form", "step.submit", "step.track"],
+      "applicationUrl": null,
+      "sourceUrl": null,
+      "lastVerified": null,
+      "verificationStatus": "demo"
+    },
+    {
+      "id": "demo-senior-support",
+      "name": { "en": "Demo Senior Support", "hi": "डेमो वरिष्ठ नागरिक सहायता", "ur": "ڈیمو سینئر سپورٹ" },
+      "description": {
+        "en": "Fictional sample: a small monthly allowance for citizens aged 60 and older with limited income.",
+        "hi": "काल्पनिक नमूना: 60 वर्ष या उससे अधिक आयु के सीमित आय वाले नागरिकों के लिए छोटा मासिक भत्ता।",
+        "ur": "فرضی نمونہ: 60 سال یا اس سے زیادہ عمر کے محدود آمدنی والے شہریوں کے لیے چھوٹا ماہانہ الاؤنس۔"
+      },
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "category": "pension",
+      "eligibility": {
+        "age": { "min": 60, "max": null },
+        "income": { "max": 120000 },
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.ageProof", "doc.incomeCertificate", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.form", "step.submit", "step.track"],
+      "applicationUrl": null,
+      "sourceUrl": null,
+      "lastVerified": null,
+      "verificationStatus": "demo"
+    },
+    {
+      "id": "demo-disability-support",
+      "name": { "en": "Demo Disability Support", "hi": "डेमो दिव्यांगता सहायता", "ur": "ڈیمو معذوری امداد" },
+      "description": {
+        "en": "Fictional sample: monthly support for citizens who hold a disability certificate.",
+        "hi": "काल्पनिक नमूना: दिव्यांगता प्रमाण पत्र रखने वाले नागरिकों के लिए मासिक सहायता।",
+        "ur": "فرضی نمونہ: معذوری سرٹیفکیٹ رکھنے والے شہریوں کے لیے ماہانہ امداد۔"
+      },
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "category": "disability",
+      "eligibility": {
+        "age": { "min": null, "max": null },
+        "income": null,
+        "occupations": [],
+        "genders": [],
+        "domicile": null,
+        "requires": [{ "field": "hasDisabilityCertificate", "equals": "yes" }]
+      },
+      "documents": ["doc.aadhaar", "doc.disabilityCertificate", "doc.bankPassbook"],
+      "steps": ["step.gather", "step.form", "step.submit", "step.track"],
+      "applicationUrl": null,
+      "sourceUrl": null,
+      "lastVerified": null,
+      "verificationStatus": "demo"
+    },
+    {
+      "id": "demo-women-seed-fund",
+      "name": { "en": "Demo Women Small Enterprise Grant", "hi": "डेमो महिला लघु उद्यम अनुदान", "ur": "ڈیمو خواتین کا چھوٹا تجارتی گرانٹ" },
+      "description": {
+        "en": "Fictional sample: a small starting grant for women starting or running a small business.",
+        "hi": "काल्पनिक नमूना: छोटा व्यवसाय शुरू करने या चलाने वाली महिलाओं के लिए छोटा शुरुआती अनुदान।",
+        "ur": "فرضی نمونہ: چھوٹا کاروبار شروع کرنے یا چلانے والی خواتین کے لیے ابتدائی گرانٹ۔"
+      },
+      "level": "central",
+      "governingState": null,
+      "applicableStates": ["ALL"],
+      "category": "business",
+      "eligibility": {
+        "age": { "min": 21, "max": 55 },
+        "income": { "max": 300000 },
+        "occupations": ["selfEmployed", "unemployed"],
+        "genders": ["female"],
+        "domicile": null,
+        "requires": []
+      },
+      "documents": ["doc.aadhaar", "doc.photo", "doc.bankPassbook", "doc.businessProof"],
+      "steps": ["step.gather", "step.form", "step.submit", "step.track"],
+      "applicationUrl": null,
+      "sourceUrl": null,
+      "lastVerified": null,
+      "verificationStatus": "demo"
+    }
+  ]
+}
