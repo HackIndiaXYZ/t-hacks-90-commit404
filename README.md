@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SchemeSaathi (योजना साथी)
 
 > **Citizen-First Government Scheme Finder, Explainable Eligibility Engine & Document Assistant for India**
@@ -163,3 +164,7 @@ node scripts/importSchemes.js incoming.json src/data/schemes.json
 * **Zero Credentials Storage**: SchemeSaathi never prompts for, stores, or transmits Aadhaar numbers, OTPs, bank passwords, or PINs.
 * **Server-Side API Keys**: When Gemini AI capabilities are enabled, the `GEMINI_API_KEY` is accessed exclusively on the backend (`server.ts`) and is never leaked to the client browser.
 * **Deterministic Transparency**: Eligibility criteria evaluate against statutory boundaries (age, income ceiling, occupation, state domicile) with full explanations provided to the user.
+=======
+# t-hacks-90-commit404
+Hackathon team repository for Commit404 - [hackindia-team:t-hacks-90:commit404]
+>>>>>>> e0428055e6d54f1294e16b1ec04ab433a8cb60ad
